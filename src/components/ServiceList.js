@@ -23,7 +23,7 @@ const ServiceList = () => {
               <div className="single-service">
                 <div>
                   <h4 className="title">
-                    <Link to="/ervices" className="stretched-link">
+                    <Link to="/services" className="stretched-link">
                       Consult To Transform{" "}
                     </Link>
                   </h4>
