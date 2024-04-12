@@ -17,7 +17,7 @@ const Carousel = () => {
           >
             <div className="col-lg-7 col-md-12 col-12">
               <h2 data-aos="fade-up">
-                Procrumbs transforms data chaos into actionable insights.
+              ProCrumbs transforms complexity into actionable insights.
               </h2>
               <blockquote data-aos="fade-up" data-aos-delay="100">
                 <p>Unraveling Complexity, Powering Value.</p>

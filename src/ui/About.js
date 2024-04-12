@@ -68,7 +68,7 @@ const About = () => {
                     transformation squads.
                   </p>
                 </p>
-                <h4>Connect with us if you would like to hear more.</h4>
+                <p>Connect with us if you would like to hear more.</p>
               </div>
             </div>
           </div>

@@ -12,7 +12,7 @@ const Revenue = () => {
             <div className="row">
               <div className="col-md-7">
                 <h4>
-                  At Procrumbs, we are dedicated to revolutionizing your
+                  At ProCrumbs, we are dedicated to revolutionizing your
                   business landscape.
                 </h4>
                 <p>
@@ -22,7 +22,7 @@ const Revenue = () => {
                 </p>
                 <p>
                   {" "}
-                  With Procrumbs by your side, you'll unlock new opportunities,
+                  With ProCrumbs by your side, you'll unlock new opportunities,
                   maximize your revenue potential, and achieve unparalleled
                   success in today's dynamic marketplace.
                 </p>

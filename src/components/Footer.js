@@ -1,5 +1,4 @@
-import React from "react";
-import footerLogo from "../img/pro-logo.svg";
+import React from "react";import footerLogo from "../img/pro-logo.svg";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 
@@ -12,24 +11,13 @@ const Footer = () => {
             <div className="row gy-4">
               <div className="col-lg-4 col-md-12 footer-info">
                 <Link to="/" className="logo d-flex align-items-center">
-                  <img src={footerLogo} alt="" title="" />
-                </Link>
+                <img src={footerLogo} alt="" title="" />
+               </Link> 
                 <p>
-                  Procrumbs is a leading data mining and processing company
-                  dedicated to transforming raw data into actionable insights
-                  for informed decision-making.
+                Unraveling Complexity, Powering Value.
                 </p>
                 <div className="social-links d-flex  mt-3">
-                  <Link to="https://twitter.com/CrumbsPro" className="twitter">
-                    <i className="bi bi-twitter"></i>
-                  </Link>
-
-                  <Link
-                    to="https://www.facebook.com/profile.php?id=61558225793764"
-                    className="facebook"
-                  >
-                    <i className="bi bi-facebook"></i>
-                  </Link>
+                  
 
                   <Link
                     to="https://www.linkedin.com/in/procrumbs-unraveling-complexity-powering-value-a4b331302/"

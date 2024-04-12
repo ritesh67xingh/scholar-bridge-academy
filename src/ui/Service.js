@@ -20,9 +20,11 @@ const Service = () => {
           <div className="container" data-aos="fade-up">
             <div className="section-header">
               <h2>
-                At our core, we specialize in converting
-                <span style={{ color: "#fedc00" }}> Raw Data Into Practical Insights</span> empowering
-                our clients to make well-informed decisions that drive towards their business goals.
+                 We leverage
+                <span style={{ color: "#fedc00" }}> Process mining and AI technologies</span> to 
+                deliver actionable insights
+                which empower our clients to make well-informed decisions which further helps in process
+                transformation and automation.
               </h2>
             </div>
 
@@ -51,28 +53,29 @@ const Service = () => {
                 
                 <div>
                   <h4 className="title"> Consult To Transform </h4>
+                  <br></br>
+
                   <p className="description">
                     
-                  In today's dynamic business landscape, transformation isn't just a 
-                  buzzword—it's a necessity. At ProCrumbs, our "Consult to Transform" 
-                  service goes beyond mere consultation.
+                  Today, complex business processes run on a myriad of underlying IT systems.
+                  Visibility and Transparency is required across processes before efficiency and 
+                  effectiveness can be improved substantially.
                   </p>
-                  <p className="description">
-                  We immerse ourselves in your organization, working hand in hand with your 
-                  teams to understand your unique challenges, aspirations, and opportunities. 
-                  </p>
+                  <br></br>
                   <p className="description">
                     
-                  Through our innovative "Digital Twin" approach, we create a comprehensive 
-                  digital representation of your business, enabling us to identify areas for 
+                  Through our Digital Twin approach, we create comprehensive digital 
+                  representations of your businesses, enabling us to identify areas for 
                   improvement and devise tailored strategies for sustainable transformation.
                   </p>
+                  <br></br>
                   <p className="description">
                     
                     <span className="fw-bold">
-                    Whether it's streamlining operations, enhancing customer experiences, 
-                    or leveraging emerging technologies, we're committed to driving tangible 
-                    results that propel your business forward. 
+                    Along with our technology partners, we are committed to driving 
+                    tangible results by stitching domain specific solutions which address 
+                    the problems that are important to you.
+ 
                     </span>
                     
                   </p>
@@ -92,27 +95,21 @@ const Service = () => {
               >
                 <div>
                 <h4 className="title"> AI-led Platform Solutions </h4>
+                <br></br>
                   <p className="description">
                     
-                  In a rapidly evolving digital landscape, staying ahead of the curve 
-                  requires more than just keeping pace—it demands innovation and agility.
+                  Our AI-led Platform Solutions empower businesses in shaping, developing and
+                  implementing next-generation AI platforms which connect with business problems 
+                  that unlock new levels of efficiency, productivity, and competitiveness.
                   </p>
-                  <p className="description">
-                  Our AI-led Platform Solutions empower businesses across diverse 
-                  industries to embrace the future with confidence. 
-                  </p>
-                  <p className="description">
-                    
-                  Leveraging cutting-edge artificial intelligence technologies, 
-                  we help you shape, develop, and implement next-generation platforms 
-                  that unlock new levels of efficiency, productivity, and competitiveness. 
-                  </p>
+                  <br></br>
+                  
                   <p className="description">
                     
                     <span className="fw-bold">
-                    Whether you're looking to automate processes, harness the power of 
-                    data analytics, or enhance decision-making capabilities, our platform 
-                    solutions are tailored to meet your specific needs and drive sustainable growth.
+                    If you are considering real-time process monitoring, process automation or 
+                    enhancing decision-making capabilities, our platform solutions are tailored to 
+                    meet your specific needs and power growth.
                     </span>
                     
                   </p>
@@ -148,29 +145,26 @@ const Service = () => {
               >
                 <div>
                 <h4 className="title"> Managed Services </h4>
+                <br></br>
                   <p className="description">
                     
-                  In today's competitive business environment, organizations need more than just 
-                  technology—they need strategic partners who can provide reliable support and 
-                  guidance every step of the way.
+                  We believe Managed Services programs need to deliver value and not just 
+                  BAU productivity and turnaround KPIs.
                   </p>
+                  <br></br>
                   <p className="description">
-                  Our Managed Services offerings are designed to alleviate the burden of 
-                  IT management, allowing you to focus on your core business activities with 
-                  confidence.
+                  Our Managed Services offerings are designed to manage new-age and complex 
+                  CoEs built to drive AI platforms and products.
                   </p>
-                  <p className="description">
-                    
-                  From infrastructure management and application support to security monitoring and 
-                  compliance management, we offer customized solutions that align with your unique 
-                  requirements and budget constraints. 
-                  </p>
+                  <br></br>
+                  
                   <p className="description">
                     
                     <span className="fw-bold">
-                    With ProCrumbs as your trusted managed services provider, you can rest 
-                    assured knowing that your IT infrastructure is in capable hands, enabling 
-                    you to achieve your business objectives with ease.
+                    Our customized solutions align with your requirements ranging from 
+                    CoE formation, roadmap planning and execution, identifying and expanding 
+                    into new growth areas, delivering value and operating Build-Operate-Transfer 
+                    models.
                     </span>
                     
                   </p>
@@ -203,7 +197,7 @@ const Service = () => {
                   </p>
                   <p className="description">
                     
-                  Whether you need assistance with project management, 
+                  Whether you need assistance with project management 
                   or strategic planning, our team of professionals is committed to delivering 
                   innovative solutions that drive tangible business outcomes.
                   </p>
