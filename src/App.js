@@ -14,21 +14,19 @@ const NoPage = lazy(() => import("./layout/NoPage"));
 
 function App() {
   return (
-    <>
-      <Router>
-        <Suspense fallback={<Preloader />}>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/courses" element={<Courses />} />
-            <Route path="/terms" element={<Terms />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/start-class" element={<StartClassPage />} />
-            <Route path="*" element={<NoPage />} />
-          </Routes>
-        </Suspense>
-      </Router>
-    </>
+    <Router>
+      <Suspense fallback={<Preloader />}>
+        <Routes>
+          <Route path="" element={<Home />} />  {/* ✅ Remove / from path */}
+          <Route path="about" element={<About />} />
+          <Route path="courses" element={<Courses />} />
+          <Route path="terms" element={<Terms />} />
+          <Route path="contact" element={<Contact />} />
+          <Route path="start-class" element={<StartClassPage />} />
+          <Route path="*" element={<NoPage />} />
+        </Routes>
+      </Suspense>
+    </Router>
   );
 }
 
