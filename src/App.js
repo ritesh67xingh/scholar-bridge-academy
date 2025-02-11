@@ -14,7 +14,7 @@ const NoPage = lazy(() => import("./layout/NoPage"));
 
 function App() {
   return (
-    <Router basename="/scholar-bridge-academy">
+    <Router >
       <Suspense fallback={<Preloader />}>
         <Routes>
           <Route path="" element={<Home />} />  {/* ✅ Remove / from path */}
