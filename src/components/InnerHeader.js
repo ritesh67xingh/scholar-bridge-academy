@@ -1,25 +1,28 @@
 import React from "react";
-import logo from "../img/pro-logo-inverse.svg";
+import logo from "../img/sba-logo-inverse.svg";
+//import Navbar from "./Navbar";
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
-import { useLocation } from "react-router-dom";
+import { useLocation } from 'react-router-dom'
 import { animateScroll as scroll } from "react-scroll";
 
 const InnerHeader = () => {
-  //
+//
 
   const toTop = () => {
     scroll.scrollToTop({ delay: 0, duration: 0 });
   };
 
+
   //assigning location variable
   const location = useLocation();
-
-  //destructuring path name from location
-  const { pathname } = location;
+  
+   //destructuring path name from location
+   const {pathname} = location;
 
   //Javascript split method to get the name of the path in array
   const splitLocation = pathname.split("/");
+
 
   //sticky header
   useEffect(() => {
@@ -43,6 +46,7 @@ const InnerHeader = () => {
     document.querySelector("body").classList.toggle("mobile-nav-active");
   };
 
+  
   return (
     <>
       <header id="header" className="header fixed-top">
@@ -50,55 +54,33 @@ const InnerHeader = () => {
           <Link to="/" className="logo" onClick={toTop}>
             <img
               src={logo}
-              alt="ProCrumbs Pvt. Ltd"
-              title="ProCrumbs Pvt. Ltd"
+              alt="Scholar Bridge Academy"
+              title="Scholar Bridge Academy"
             />
           </Link>
-          <span onClick={mobilemenu}>
-            <i className="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
-            <i className="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+          <span  onClick={mobilemenu}>  
+          <i className="mobile-nav-toggle mobile-nav-show bi bi-list"     
+          ></i>
+          <i className="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
           </span>
           <nav id="navbar" className="navbar">
-            <ul onClick={mobilemenu}>
-              <li>
-                <Link
-                  to="/"
-                  className={splitLocation[1] === "" ? "active" : ""}
-                >
-                  {" "}
-                  Home
-                </Link>
-              </li>
+          <ul onClick={mobilemenu}>
+            <li >
+              <Link to ="/"  className={splitLocation[1] === "" ? "active" : ""}> Home</Link>
+            </li>
+            <li>
+            <Link to ="/Courses"  className={splitLocation[1] === "services" ? "active" : ""}> Courses</Link>
+            </li>
+            <li>
+            <Link to ="/about"  className={splitLocation[1] === "about" ? "active" : ""}> About Us</Link>
+            </li>
+            
 
-              <li>
-                <Link
-                  to="/services"
-                  className={splitLocation[1] === "services" ? "active" : ""}
-                >
-                  {" "}
-                  Services
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/about"
-                  className={splitLocation[1] === "about" ? "active" : ""}
-                >
-                  {" "}
-                  About Us
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/contact"
-                  className={splitLocation[1] === "contact" ? "active" : ""}
-                >
-                  {" "}
-                  Contact Us
-                </Link>
-              </li>
-            </ul>
-          </nav>
+            <li>
+            <Link to ="/contact"  className={splitLocation[1] === "contact" ? "active" : ""}> Contact Us</Link>
+            </li>
+          </ul>
+        </nav>
         </div>
       </header>
     </>

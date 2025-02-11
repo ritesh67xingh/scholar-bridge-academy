@@ -2,8 +2,8 @@ import React from "react";
 import InnerHeader from "../components/InnerHeader";
 import Footer from "../components/Footer";
 import Carousel from "../components/Carousel";
-import PartnerList from "../components/PartnerList";
-
+import Review from "../components/Review";
+import Facts from "../components/Facts";
 import ServiceList from "../components/ServiceList";
 import Revenue from "../components/Revenue";
 
@@ -14,8 +14,8 @@ const Home = () => {
       <Carousel />
       <main id="main">
         <ServiceList/>
-        <PartnerList/>
-        
+        <Review/>
+        <Facts/>
         <Revenue/>
       </main>
       <Footer />

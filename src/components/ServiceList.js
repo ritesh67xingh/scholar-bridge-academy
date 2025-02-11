@@ -7,11 +7,10 @@ const ServiceList = () => {
       <section id="services-list" className="services-list">
         <div className="container" data-aos="fade-up">
           <div className="section-header">
-            <h2>Our Services </h2>
+            <h2>Organized Learning Approach </h2>
             <p>
-              Our expertise lies in transforming raw data into actionable
-              insights, enabling our clients to make informed decisions and
-              achieve their business objectives.{" "}
+            Our Organized Learning Approach ensures that students follow a 
+            clear and logical progression in their educational journey.{" "}
             </p>
           </div>
           <div className="row gy-5">
@@ -21,17 +20,19 @@ const ServiceList = () => {
               data-aos-delay="100"
             >
               <div className="single-service">
+                <div className="icon flex-shrink-0">
+                  <i className="bi bi-binoculars" style={{ color: "#f57813" }}></i>
+                </div>
                 <div>
                   <h4 className="title">
-                    <Link to="/services" className="stretched-link">
-                      Consult To Transform{" "}
+                    <Link to="/ervices" className="stretched-link">
+                    Explore{" "}
                     </Link>
                   </h4>
                   <p className="description">
-                    We make it tangible with our "Digital twin"approach. Whether
-                    innovating, elevating operations, or modernising technology,
-                    we work shoulder to shoulder and unearth every part of your
-                    business to prioritize journeys and iterate for impact......
+                  Dive into interactive learning sessions that allow students to 
+                  discover new concepts and ideas. Each lesson is designed to spark 
+                  curiosity and make learning engaging.
                   </p>
                   <Link to="/services" className="btn-get-started">
                     Read More
@@ -46,19 +47,22 @@ const ServiceList = () => {
               data-aos-delay="200"
             >
               <div className="single-service">
+                <div className="icon flex-shrink-0">
+                  <i
+                    className="bi bi-check-circle"
+                    style={{ color: "#15a04a" }}
+                  ></i>
+                </div>
                 <div>
                   <h4 className="title">
                     <Link to="/services" className="stretched-link">
-                      AI led Platform Solutions
+                    Assess
                     </Link>
                   </h4>
                   <p className="description">
-                    We make it faster across Industry verticals. Shape-up.
-                    Develop. Build. next generation process and realise new
-                    opportunities to accelerate business value. Our holistic
-                    approach encompasses shaping, developing, and building
-                    next-generation processes, ensuring your organization stays
-                    ahead of the curve .......
+                  Get a real-time evaluation of your progress through engaging 
+                  quizzes and exercises. These assessments help track your understanding 
+                  and ensure you're on the right path.
                   </p>
                   <Link to="/services" className="btn-get-started">
                     Read More
@@ -73,18 +77,22 @@ const ServiceList = () => {
               data-aos-delay="300"
             >
               <div className="single-service">
+                <div className="icon flex-shrink-0">
+                  <i
+                    className="bi bi-file-earmark-text"
+                    style={{ color: "#f5cf13" }}
+                  ></i>
+                </div>
                 <div>
                   <h4 className="title">
                     <Link to="/services" className="stretched-link">
-                      Managed Services{" "}
+                    Assignments{" "}
                     </Link>
                   </h4>
                   <p className="description">
-                    We understand the importance of predictable costs and
-                    efficient use of resources for our clients. That’s why we
-                    offer customized Managed Services arrangements that help our
-                    clients receive the necessary capabilities and expertise to
-                    scale as needs grow......
+                  Apply your learning with personalized tasks designed to reinforce key 
+                  concepts and skills. Completing assignments deepens knowledge and builds 
+                  confidence in every subject.
                   </p>
                   <Link to="/services" className="btn-get-started">
                     Read More
@@ -99,19 +107,23 @@ const ServiceList = () => {
               data-aos-delay="400"
             >
               <div className="single-service">
+                <div className="icon flex-shrink-0">
+                  <i
+                    className="bi bi-pencil"
+                    style={{ color: "#1335f5" }}
+                  ></i>
+                </div>
                 <div>
                   <h4 className="title">
                     <Link to="/services" className="stretched-link">
-                      Professional Services{" "}
+                    Feedback{" "}
                     </Link>
                   </h4>
                   <p className="description">
-                    Strike a balance between delivering quick wins to make
-                    immediate impact and innovating for future growth with
-                    ProCrumbs certified global skill pool With our certified
-                    global skill pool, we ensure that every solution we provide
-                    not only addresses immediate needs but also sets the stage
-                    for long-term success.......{" "}
+                  Receive detailed reviews and constructive feedback to guide your 
+                  learning journey and improvement. Continuous feedback ensures that 
+                  students are supported at every step and can reach their full 
+                  potential.{" "}
                   </p>
                   <Link to="/services" className="btn-get-started">
                     Read More

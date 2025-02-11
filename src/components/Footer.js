@@ -1,6 +1,8 @@
-import React from "react";import footerLogo from "../img/pro-logo.svg";
+import React from "react";
+import footerLogo from '../img/sba-logo.svg'
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
+
 
 const Footer = () => {
   return (
@@ -11,89 +13,90 @@ const Footer = () => {
             <div className="row gy-4">
               <div className="col-lg-4 col-md-12 footer-info">
                 <Link to="/" className="logo d-flex align-items-center">
-                <img src={footerLogo} alt="" title="" />
-               </Link> 
+                  <img src={footerLogo} alt="" title="" />
+                </Link>
                 <p>
-                Unraveling Complexity, Powering Value.
+                At Scholar Bridge Academy, we recognize that each student is unique, 
+                with their own strengths and learning styles. That’s why we design 
+                personalized curriculums to ensure every student can excel and reach 
+                their full potential.
                 </p>
                 <div className="social-links d-flex  mt-3">
-                  
+                  <Link to="https://x.com/ScholarBridge67" className="twitter">
+                    <i className="bi bi-twitter"></i>
+                  </Link>
 
-                  <Link
-                    to="https://www.linkedin.com/in/procrumbs-unraveling-complexity-powering-value-a4b331302/"
-                    className="linkedin"
-                  >
+                  <Link to="https://www.facebook.com/profile.php?id=61561866722071" className="facebook">
+                    <i className="bi bi-facebook"></i>
+                  </Link>
+                  
+                  <Link to ="https://www.linkedin.com/company/104079916/admin/feed/posts/" className="linkedin">
                     <i className="bi bi-linkedin"></i>
                   </Link>
                 </div>
               </div>
               <div className="col-lg-2 col-6 footer-links">
-                <h4>Useful Links</h4>
+                <h4>Explore Further</h4>
                 <ul>
                   <li>
                     <i className="bi bi-dash"></i>
-                    <Link to="/">Home</Link>
-                  </li>
-                  <li>
-                    <i className="bi bi-dash"></i>
-                    <Link to="/services">Services</Link>
+                    <Link to ="/">Home</Link>
                   </li>
                   <li>
                     <i className="bi bi-dash"></i>
                     <Link to="/about">About Us</Link>
                   </li>
-
                   <li>
                     <i className="bi bi-dash"></i>
-                    <Link to="/contact">Contact Us</Link>
+                    <Link to ="/Courses">Courses</Link>
+                  </li>
+                  <li>
+                    <i className="bi bi-dash"></i>
+                    <Link to="/Terms">Terms Conditions & Policies</Link>
+                  </li>
+                  <li>
+                    <i className="bi bi-dash"></i>
+                    <Link to ="/contact">Contact Us</Link>
                   </li>
                 </ul>
               </div>
               <div className="col-lg-3 col-6 footer-links">
-                <h4>Our Services</h4>
+                <h4>Our Courses</h4>
                 <ul>
                   <li>
                     <i className="bi bi-dash"></i>
-                    <HashLink
-                      smooth
-                      to="/services/#Consult to Transform-content"
-                    >
-                      Consult to Transform
+                    <HashLink smooth to ="/services/#Educational-content">
+                    Online Tuition Classes (Grades 5 to 10)
                     </HashLink>
                   </li>
                   <li>
                     <i className="bi bi-dash"></i>
-                    <HashLink
-                      smooth
-                      to="/services/#AI led Platform Solutions-content"
-                    >
-                      AI led Platform Solutions
+                    <HashLink smooth to ="/services/#Entertainment-content">
+                    Olympiad Preparation
                     </HashLink>
                   </li>
                   <li>
                     <i className="bi bi-dash"></i>
-                    <HashLink smooth to="/services/#Managed Services">
-                      Managed Services
-                    </HashLink>
+                    <HashLink smooth to="/services/#Games">Robotics & STEM Programs</HashLink>
                   </li>
                   <li>
                     <i className="bi bi-dash"></i>
-                    <HashLink smooth to="/services/#Professional Services">
-                      Professional Services
-                    </HashLink>
+                    <HashLink smooth to ="/services/#Sports">IT Courses for Future Innovators</HashLink>
                   </li>
                 </ul>
               </div>
               <div className="col-lg-3 col-md-12 footer-contact text-center text-md-start">
                 <h4>Contact Us</h4>
                 <address>
-                  102, <br /> Pioneer Lake District, <br /> Reliable Dollar
-                  Colony Phase 1, Gattahalli, Sarjapur, Bengaluru - 560 099{" "}
+                 
+                G-93 SNN Raj Grandeur, <br /> Begur Main Road, <br />  HONGASANDRA LAYOUT 
+                Banglore India 560068.  <br />
                   <br />
-                  <br />
-                  <strong>Phone:</strong> +91 91484 44499 <br />
+                  <strong>Phone:</strong> +91 99166 34178 <br />
                   <strong>Email: </strong>
-                  <a href="mailto:info@procrumbs.com">info@procrumbs.com</a>
+                  <a href="mailto:info@scholarbridgeacademy.com">                  
+                  info@scholarbridgeacademy.com
+                  </a> 
                   <br />
                 </address>
               </div>
@@ -109,14 +112,16 @@ const Footer = () => {
                   Date().getFullYear()) )
                 </script>
               </span>
-              &copy; Copyright
-              <span> ProCrumbs Pvt. Ltd 2024 </span>. All Rights Reserved
+              Copyright&copy; 2024
+              <span> Scholar Bridge Academy </span>. All Rights Reserved
             </div>
           </div>
         </div>
       </footer>
+      
     </>
-  );
+  )
+  
 };
 
 export default Footer;
