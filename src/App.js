@@ -1,4 +1,4 @@
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { lazy, Suspense } from "react";
 import "../node_modules/bootstrap/dist/css/bootstrap.css";
 import Preloader from "./layout/Preloader";
